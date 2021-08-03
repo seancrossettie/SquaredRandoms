@@ -1,2 +1,2 @@
 # SquaredRandoms
-C# excercise in Collections
+C# exercise in Collections
