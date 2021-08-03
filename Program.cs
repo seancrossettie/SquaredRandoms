@@ -22,7 +22,7 @@ namespace SquaredRandoms
 
             squaredList.ForEach(num => Console.WriteLine(num));
 
-            foreach (int num in squaredList)
+            foreach (int num in squaredList.ToList())
             {
                 if (num % 2 != 0)
                 {
@@ -32,6 +32,10 @@ namespace SquaredRandoms
                 { 
                 }
             }
+
+            Console.WriteLine("------------------");
+
+            squaredList.ForEach(num => Console.WriteLine(num));
         }
     }
 }
